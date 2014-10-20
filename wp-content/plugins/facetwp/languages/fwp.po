@@ -1,0 +1,386 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: FacetWP\n"
+"POT-Creation-Date: 2014-09-04 21:55-0500\n"
+"PO-Revision-Date: 2014-09-04 21:55-0500\n"
+"Last-Translator: FacetWP <hello@uproot.us>\n"
+"Language-Team: Matt Gibbs <hello@uproot.us>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:175
+msgid "Activate license"
+msgstr ""
+
+#: index.php:180
+msgid "Renew license"
+msgstr ""
+
+#: index.php:181 templates/page-settings.php:34
+msgid "expires"
+msgstr ""
+
+#: includes/class-ajax.php:90
+msgid "Settings saved"
+msgstr ""
+
+#: includes/class-ajax.php:225
+msgid "Nothing to import"
+msgstr ""
+
+#: includes/class-ajax.php:261
+msgid "Imported"
+msgstr ""
+
+#: includes/class-ajax.php:264
+msgid "Skipped"
+msgstr ""
+
+#: includes/class-ajax.php:295
+msgid "Unable to connect to activation server"
+msgstr ""
+
+#: includes/class-facet.php:315 includes/class-facet.php:523
+msgid "of"
+msgstr ""
+
+#: includes/class-facet.php:432 includes/facets/checkboxes.php:298
+#: includes/facets/dropdown.php:189 includes/facets/hierarchy.php:233
+msgid "Sort by"
+msgstr ""
+
+#: includes/class-facet.php:436
+msgid "Title (A-Z)"
+msgstr ""
+
+#: includes/class-facet.php:443
+msgid "Title (Z-A)"
+msgstr ""
+
+#: includes/class-facet.php:450
+msgid "Date (Newest)"
+msgstr ""
+
+#: includes/class-facet.php:457
+msgid "Date (Oldest)"
+msgstr ""
+
+#: includes/class-facet.php:522
+msgid "Page"
+msgstr ""
+
+#: includes/facets/autocomplete.php:7
+msgid "Autocomplete"
+msgstr ""
+
+#: includes/facets/checkboxes.php:7
+msgid "Checkboxes"
+msgstr ""
+
+#: includes/facets/checkboxes.php:283 includes/facets/dropdown.php:174
+msgid "Parent term"
+msgstr ""
+
+#: includes/facets/checkboxes.php:301 includes/facets/dropdown.php:192
+#: includes/facets/hierarchy.php:236
+msgid "Facet Count"
+msgstr ""
+
+#: includes/facets/checkboxes.php:302 includes/facets/dropdown.php:193
+#: includes/facets/hierarchy.php:237
+msgid "Display Value"
+msgstr ""
+
+#: includes/facets/checkboxes.php:303 includes/facets/dropdown.php:194
+#: includes/facets/hierarchy.php:238
+msgid "Raw Value"
+msgstr ""
+
+#: includes/facets/checkboxes.php:309
+msgid "Behavior"
+msgstr ""
+
+#: includes/facets/checkboxes.php:312
+msgid "How should multiple selections affect the results?"
+msgstr ""
+
+#: includes/facets/checkboxes.php:317
+msgid "Narrow the result set"
+msgstr ""
+
+#: includes/facets/checkboxes.php:318
+msgid "Widen the result set"
+msgstr ""
+
+#: includes/facets/checkboxes.php:324
+msgid "Hierarchical"
+msgstr ""
+
+#: includes/facets/checkboxes.php:327
+msgid "Is this a hierarchical taxonomy?"
+msgstr ""
+
+#: includes/facets/checkboxes.php:332 includes/facets/checkboxes.php:347
+msgid "No"
+msgstr ""
+
+#: includes/facets/checkboxes.php:333 includes/facets/checkboxes.php:348
+msgid "Yes"
+msgstr ""
+
+#: includes/facets/checkboxes.php:339
+msgid "Show ghosts"
+msgstr ""
+
+#: includes/facets/checkboxes.php:342
+msgid "Show choices that would return zero results?"
+msgstr ""
+
+#: includes/facets/checkboxes.php:354 includes/facets/dropdown.php:200
+#: includes/facets/hierarchy.php:244
+msgid "Count"
+msgstr ""
+
+#: includes/facets/checkboxes.php:357 includes/facets/dropdown.php:203
+#: includes/facets/hierarchy.php:247
+msgid "The maximum number of facet choices to show"
+msgstr ""
+
+#: includes/facets/date_range.php:7
+msgid "Date Range"
+msgstr ""
+
+#: includes/facets/date_range.php:22 includes/facets/date_range.php:123
+msgid "Start Date"
+msgstr ""
+
+#: includes/facets/date_range.php:26 includes/facets/date_range.php:124
+msgid "End Date"
+msgstr ""
+
+#: includes/facets/date_range.php:119
+msgid "Fields to show"
+msgstr ""
+
+#: includes/facets/date_range.php:122
+msgid "Both"
+msgstr ""
+
+#: includes/facets/dropdown.php:7
+msgid "Dropdown"
+msgstr ""
+
+#: includes/facets/dropdown.php:57 includes/facets/dropdown.php:169
+#: includes/facets/hierarchy.php:60
+msgid "Any"
+msgstr ""
+
+#: includes/facets/dropdown.php:160
+msgid "Default label"
+msgstr ""
+
+#: includes/facets/hierarchy.php:7
+msgid "Hierarchy"
+msgstr ""
+
+#: includes/facets/hierarchy.php:111
+msgid "More"
+msgstr ""
+
+#: includes/facets/hierarchy.php:112
+msgid "Less"
+msgstr ""
+
+#: includes/facets/hierarchy.php:216 templates/page-settings.php:154
+msgid "Data source"
+msgstr ""
+
+#: includes/facets/hierarchy.php:219
+msgid "The data used to populate this facet"
+msgstr ""
+
+#: includes/facets/number_range.php:7
+msgid "Number Range"
+msgstr ""
+
+#: includes/facets/number_range.php:19
+msgid "Min"
+msgstr ""
+
+#: includes/facets/number_range.php:21
+msgid "Max"
+msgstr ""
+
+#: includes/facets/search.php:7
+msgid "Search"
+msgstr ""
+
+#: includes/facets/search.php:19
+msgid "Enter keywords"
+msgstr ""
+
+#: includes/facets/search.php:136
+msgid "Search engine"
+msgstr ""
+
+#: includes/facets/search.php:139
+msgid "WP Default"
+msgstr ""
+
+#: includes/facets/search.php:141
+msgid "Default"
+msgstr ""
+
+#: includes/facets/slider.php:7
+msgid "Slider"
+msgstr ""
+
+#: includes/facets/slider.php:22
+msgid "Reset"
+msgstr ""
+
+#: includes/facets/slider.php:215
+msgid "Prefix"
+msgstr ""
+
+#: includes/facets/slider.php:218
+msgid "Text that appears before each slider value"
+msgstr ""
+
+#: includes/facets/slider.php:225
+msgid "Format"
+msgstr ""
+
+#: includes/facets/slider.php:228
+msgid "The number format"
+msgstr ""
+
+#: includes/facets/slider.php:247
+msgid "Step"
+msgstr ""
+
+#: includes/facets/slider.php:250
+msgid "The amount of increase between intervals"
+msgstr ""
+
+#: templates/page-migrate.php:26 templates/page-migrate.php:35
+msgid "Export"
+msgstr ""
+
+#: templates/page-migrate.php:42 templates/page-migrate.php:45
+msgid "Import"
+msgstr ""
+
+#: templates/page-migrate.php:43
+msgid "Paste the import code here"
+msgstr ""
+
+#: templates/page-migrate.php:44
+msgid "Overwrite existing items?"
+msgstr ""
+
+#: templates/page-settings.php:28
+msgid "Not yet activated"
+msgstr ""
+
+#: templates/page-settings.php:33
+msgid "License active"
+msgstr ""
+
+#: templates/page-settings.php:67
+msgid "Facets"
+msgstr ""
+
+#: templates/page-settings.php:68
+msgid "Templates"
+msgstr ""
+
+#: templates/page-settings.php:69
+msgid "Settings"
+msgstr ""
+
+#: templates/page-settings.php:70
+msgid "Migrate"
+msgstr ""
+
+#: templates/page-settings.php:81
+msgid "Re-index"
+msgstr ""
+
+#: templates/page-settings.php:82 templates/page-settings.php:97
+msgid "Save Changes"
+msgstr ""
+
+#: templates/page-settings.php:84
+msgid "Add Facet"
+msgstr ""
+
+#: templates/page-settings.php:99
+msgid "Add Template"
+msgstr ""
+
+#: templates/page-settings.php:112
+msgid "License Key"
+msgstr ""
+
+#: templates/page-settings.php:115
+msgid "Activate"
+msgstr ""
+
+#: templates/page-settings.php:136 templates/page-settings.php:190
+msgid "Label"
+msgstr ""
+
+#: templates/page-settings.php:143
+msgid "Facet type"
+msgstr ""
+
+#: templates/page-settings.php:158
+msgid "Posts"
+msgstr ""
+
+#: templates/page-settings.php:159
+msgid "Post Type"
+msgstr ""
+
+#: templates/page-settings.php:160
+msgid "Post Date"
+msgstr ""
+
+#: templates/page-settings.php:161
+msgid "Post Modified"
+msgstr ""
+
+#: templates/page-settings.php:162
+msgid "Post Author"
+msgstr ""
+
+#: templates/page-settings.php:164
+msgid "Taxonomies"
+msgstr ""
+
+#: templates/page-settings.php:169
+msgid "Custom Fields"
+msgstr ""
+
+#: templates/page-settings.php:183
+msgid "Delete Facet"
+msgstr ""
+
+#: templates/page-settings.php:195
+msgid "Query Arguments"
+msgstr ""
+
+#: templates/page-settings.php:199
+msgid "Display Code"
+msgstr ""
+
+#: templates/page-settings.php:202
+msgid "Delete Template"
+msgstr ""

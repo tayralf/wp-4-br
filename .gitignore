@@ -1,0 +1,8 @@
+wp-config.php
+logs/*.log
+build
+.DS_Store
+wp-content/cache
+wp-content/uploads/
+wp-content/plugins/wp-all-import/libraries/cache
+cache/

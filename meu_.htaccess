@@ -1,0 +1,58 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
+
+# Stop Apache from serving .ht* files
+# <Files ~ "^\.ht"> Order allow,deny Deny from all </Files>
+# Protect wp-login
+# # <Files wp-login.php>
+# #<Files ~ "^wp-login.php">
+# AuthUserFile wp-admin/.htpasswd
+# AuthName "Private access"
+# AuthType Basic
+# require user admin
+# </Files>
+# 
+
+# Para proibir acesso e ataque de força bruta descomentar as linhas abaixo
+<Files ~ "^wp-login.php">
+# Order allow,deny
+# Deny from all
+# Satisfy All
+</Files>
+# ErrorDocument 403 "Not acceptable"
+
+
+# Stop spam attack logins and comments
+# <IfModule mod_rewrite.c>
+# 	RewriteEngine On
+# 	RewriteCond %{REQUEST_METHOD} POST
+# 	RewriteCond %{REQUEST_URI} .(wp-comments-post|wp-login)\.php*
+# 	RewriteCond %{HTTP_REFERER} !.*meu-site.com.br/admin.php [OR]
+# 	RewriteCond %{HTTP_USER_AGENT} ^$
+# 	RewriteRule (.*) http://%{REMOTE_ADDR}/$ [R=301,L]
+# </ifModule>
+
+#
+# RewriteLog /home/parana/logs/rewrite_log.txt
+# RewriteLogLevel 2
+
+SetEnvIf Referer meu-site\.com\.br/admin.php localreferer
+SetEnvIf Referer meu-site\.com\.br/wp-login.php localreferer
+SetEnvIf Referer meu-site\.com\.br/wp-admin localreferer
+
+<FilesMatch wp-login\.php$>
+  # Order deny,allow
+  # Deny from all
+  # Allow from env=localreferer
+</FilesMatch>
+

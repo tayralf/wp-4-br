@@ -1,0 +1,7 @@
+# Allow acces to wp-admin/admin-ajax.php
+<Files admin-ajax.php>
+    Order allow,deny
+    Allow from all
+    Satisfy any
+</Files>
+
